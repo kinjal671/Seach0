@@ -17,10 +17,10 @@
 <body>
     <ul class="nav justify-content-end">
         <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Image Search</a>
+            <a class="nav-link active" aria-current="page" href="image.html">Image Search</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link active" href="#">Advanced Search</a>
+            <a class="nav-link active" href="advanced.html">Advanced Search</a>
         </li>
     </ul>
     <!--SVG-->
@@ -49,28 +49,29 @@
 
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/368px-Google_2015_logo.svg.png"
             alt="" class="img-fluid mb-3" id="area">
-       
-            <form action="https://google.com/search" class="searchbox sbx-google">
-                <div role="search" class="sbx-google__wrapper">
-                    <input type="search" name="q" placeholder="Search your website" autocomplete="off"
-                        required="required" class="sbx-google__input">
-                </div>
-                <button type="submit" title="Submit your search query." value="Google Search"
-                    class="sbx-google__submit">
-                    <svg role="img" aria-label="Search">
-                        <use xlink:href="#sbx-icon-search-13"></use>
-                    </svg>
-                </button>
-                <button type="reset" title="Clear the search query." class="sbx-google__reset">
-                    <svg role="img" aria-label="Reset">
-                        <use xlink:href="#sbx-icon-clear-3"></use>
-                    </svg>
-                </button>
-                <br>
-                <button type="button" class="btn btn-primary my-3 submit">Google Search</button>
-                <button type="button" class="btn btn-primary lucky my-3">Im Feeling Lucky</button>
-        
+
+        <form action="https://google.com/search" class="searchbox sbx-google">
+            <div role="search" class="sbx-google__wrapper">
+                <input type="search" name="q" placeholder="Search Google" autocomplete="off" required="required"
+                    class="sbx-google__input">
+            </div>
+            <button type="submit" title="Submit your search query." value="Google Search" class="sbx-google__submit">
+                <svg role="img" aria-label="Search">
+                    <use xlink:href="#sbx-icon-search-13"></use>
+                </svg>
+            </button>
+            <button type="reset" title="Clear the search query." class="sbx-google__reset">
+                <svg role="img" aria-label="Reset">
+                    <use xlink:href="#sbx-icon-clear-3"></use>
+                </svg>
+            </button>
+            <br>
+            <button type="submit" class="btn btn-light my-2 submit">Google Search</button>
+            <button type="submit" name="btnI" value="I'm Feeling Lucky" class="btn btn-light lucky my-2">Im Feeling Lucky</button>
+            
+
         </form>
+
 
     </div>
     <!--Forms-->
